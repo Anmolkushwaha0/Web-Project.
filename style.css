@@ -1,0 +1,249 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.first-nav{
+  justify-content: center;
+  align-items: center;
+           font-size: 20px;
+    display: flex;
+   color: transparent;
+    background: url(img//logo1.png);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.homepages li{
+padding: 26px 30px;
+}
+.homepages li a{
+  color: rgb(0, 0, 0);
+}
+.homepages li a:hover{
+  color: rgb(207, 198, 198);
+}
+
+.homepages{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+font-family: 'Courier New', Courier, monospace;
+
+}
+.second-nav{
+  background-color: rgb(245, 231, 152);
+  padding: 10px;
+}
+.h-gi{
+    margin: 1% 36%;
+    font-size: 20px;
+   
+}
+.fish{
+    height: 300px;
+    width: 300px;
+  border-radius: 50% ;
+  margin: 3% 28%;
+  color: #fbff00;
+
+
+}
+.fisrt-head{ background-color: rgb(245, 231, 152);
+
+}
+.logo{
+    height:100px;
+    width: 100px;
+  border-radius: 50%;
+}
+.f-h{
+  display:flex;
+
+
+}
+.b-n{
+  margin: 1% 5%;
+  font-size: 30px;
+}
+
+
+.home{
+  background: url('img//bar.jpg');
+  height: 300px;
+  width: 1270px;
+  margin: 2px;
+
+}
+.search-box{
+  display: flex;
+padding: 1% 40%;
+}
+.searc{
+  color: #a5a59a;
+  border-radius: 26px;
+font-size: large;
+}
+.btn{border-radius: 26px;
+  font-size: large;
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+
+}
+.btn:hover{border-radius: 26px;
+  font-size: large;
+  background-color: rgb(255, 0, 0);
+
+}
+.s-n{
+text-align: center;
+
+margin: 1px 530px;
+font-size: xx-large;
+
+}
+.sub-head{
+  text-align: center;
+font-size: x-large;
+
+}
+.s-n:hover{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin: 1px 530px;
+  font-size: xx-large;
+  
+  }
+  .sub-head{
+    text-align: center;
+  font-size: x-large;
+  
+  }
+  .num{
+    margin: 0px 10px;
+  }
+  .login-page 
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+  padding: 68px 0px;
+  margin: 0px 309px;
+  }
+  .l-g{
+       background-color: rgb(235, 215, 215);
+    padding: 91px;
+    background: url(img//logo1.png);
+  }
+  h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  h2:hover{
+    text-align: center;
+    color: rgb(255, 145, 0);
+  }
+.s-b{
+  background-color: rgb(255, 0, 0);
+ 
+}
+.s-b:hover{
+  background-color: rgb(255, 0, 0);
+}
+.e-m{
+  border-radius: 10px;
+  background-color: #fbff00;
+}
+
+.f-about{
+  display: flex;
+  margin: 10px 70px;
+  font-size: x-large;
+  text-align: center;
+  background-color: #ffffff;
+}
+.e-p{
+
+  justify-content: center;
+margin: 10px 300px;
+}
+
+
+#footer {
+  position: relative;
+  padding: 30px 0 25px 0;
+  text-align: center;
+  background-color: rgb(189, 177, 113);
+}
+
+#footer .social {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#footer .social a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 4px 10px;
+  background: #7DC576;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+#footer .social a:hover {
+  background: #ffffff;
+  color: #7DC576;
+}
+
+#footer p {
+  margin: 0;
+  font-size: 18px;
+}
+/* ================================================= */
+/* ----------------- Call Us Style ----------------- */
+/* ================================================= */
+
+#call-us {
+  position: relative;
+  text-align: center;
+
+  background-color: rgb(245, 231, 152);
+  padding: 10px;
+}
+
+#call-us .section-header h2 {
+  color: #000000;
+}
+
+#call-us .section-header::before,
+#call-us .section-header::after {
+  background: #000000;
+}
+
+#call-us p {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+#call-us a {
+  display: inline-block;
+  padding: 15px 45px;
+  background: #ffffff;
+  color: #7DC576;
+  font-size: 28px;
+  font-weight: 800;
+  border-radius: 50px;
+  letter-spacing: 1px;
+}
+
+#call-us a:hover {
+  color: #ffffff;
+  background: #7DC576;;
+}
